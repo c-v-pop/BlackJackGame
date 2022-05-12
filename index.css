@@ -1,31 +1,27 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0ch;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     background-image: url("board.jpg");
-    background-size: 100%;
-    text-align: center;
+    background-size: cover;
+    font-weight: bold;
     color: white;
+    text-align: center;
 }
-#board {
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    z-index: -2;
-    opacity: 80%;
-}
+
 h1 {
     color: goldenrod;
-    margin: 0;
-    padding: 0;
 }
+
 #message-el {
     font-style: italic;
 }
-#start-el {
-    color: rgb(175, 172, 8);
-   border-radius: 10px;
-   width: 100px;
-   background-color: rgb(50, 8, 8);
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
 }
