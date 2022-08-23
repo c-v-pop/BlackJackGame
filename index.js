@@ -12,13 +12,13 @@ let drawCard = document.getElementById("newcard-el")
 
 
 function getRandomCard() {
-    return 7}
-
+    return Math.floor ( Math.random() * 13) + 1
+}
 
 function startGame() {
     renderGame()
 }
-let randomNumber = Math.random()
+let randomNumber = Math.floor(Math.random() * 7) + 1
 
 console.log(randomNumber)
 
